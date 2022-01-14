@@ -1,0 +1,108 @@
+.NFTDiv {
+  display: inline-block;
+  color: black;
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  /* border: 1px solid greenyellow; */
+}
+
+.FraktalModeOff{
+  display: flex;
+  align-items: top;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 1rem
+}
+
+.Container {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 1rem;
+  /* border: 1px solid red */
+}
+
+.DetailsContainer {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 1rem;
+  /* border: 1px solid blue */
+}
+
+
+
+.SubHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+
+}
+
+.BuyoutSpacer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.ButtonFix {
+  background-color: transparent;
+  text-align: center;
+}
+
+.ContainedSpacer {
+  width: 100%;
+  /* border: 1px solid yellowgreen */
+
+}
+
+.TextDiv {
+  display: inline-block;
+  margin-left: 0.7rem;
+  height: 100%;
+  /* border: 1px solid greenyellow; */
+}
+
+.FixedImg {
+  height: 250px;
+  width: 250px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.ItemText {
+  font-size: 1.85em;
+  font-family: 'Alfa Slab One', cursive;
+  background: #98f2a1;
+  background: -webkit-linear-gradient(to bottom, #98f2a1 22%, #2c94a9 87%);
+  background: -moz-linear-gradient(to bottom, #98f2a1 22%, #2c94a9 87%);
+  background: linear-gradient(to bottom, #98f2a1 22%, #2c94a9 87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.SpacerDiv {
+  height: 8px;
+}
+
+.GavelPosition {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ArtistText {
+  font-size: 1.2rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+.DescriptionText {
+  height: 130px;
+  width: 600px;
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  overflow: auto;
+}

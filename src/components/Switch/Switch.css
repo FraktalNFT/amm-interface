@@ -1,0 +1,108 @@
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 60px;
+  height: 20px;
+  background: #ffc0cb;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.react-switch-label .react-switch-button {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 15px;
+  border-radius: 20px;
+  transition: 0.2s;
+  background: whitesmoke;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.ercType {
+  font-family: 'Inconsolata', monospace;
+}
+
+.erc {
+  color: #98f2a1;
+  display: flex;
+  font-size: 0.7rem;
+  /* border: 1px solid rgb(34, 188, 194); */
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 35px;
+}
+
+.Arrange {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.TextArrange {
+  display: flex;
+  /* border: 1px solid greenyellow;  */
+  user-select: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ModeText {
+  text-align: end;
+  margin-right: 0.3rem;
+}
+
+.AestheticText {
+  color: #FFFFFF;
+}
+
+.SwitchBox {
+  display: flex;
+  margin-top: 0.15rem;
+}
+
+.isOnArrange {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  /* border: 1px solid red; */
+  margin-top: 1rem;
+  margin-bottom: 11.5rem;
+}
+
+.borderPurple {
+  border: 1px solid purple;
+}
+
+.borderGreen {
+  border: 1px dotted chartreuse;
+}
+
+/* not being used anymore take the white space property */
+td {
+  white-space: nowrap;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+}

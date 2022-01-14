@@ -1,0 +1,78 @@
+{
+  "name": "Fraktal Gallery",
+  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+  "keywords": ["audited", "verified", "special tokens", "erc1155"],
+  "tags": {
+    "universal": {
+      "name": "Universal",
+      "description": "SPACE"
+    },
+    "compound": {
+      "name": "sweet",
+      "description": "my dog on the flower"
+    }
+  },
+  "timestamp": "2020-06-12T00:00:00+00:00",
+  "tokens": [
+    {
+      //This is to be a ERC-1155 Hardcoded Tokenlist that can be accessed from Fraktal's subgraph/api soon
+
+      //Previous Parameters////////////////////////////////////////////////////////////////////////
+      
+      // "chainId": 1,
+      // "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      // "symbol": "USDC",
+      // "name": "USD Coin",
+      // "decimals": 6,
+      // "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+      // "tags": ["stablecoin"]
+
+      //Decimals should not be needed I think. We cannot subfractioanlize so it should just be 1
+      //"decimals": 6,
+      
+      //LogoURI changes to the image of the NFT, change the name there to just image to mirror 721
+      //"logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+
+      /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+      "chainId": 1,
+      "address": "0xebba858df055018f28793cec9295e39abf2fd9d2",
+      //Thinking I can truncate the first 3-4 letters and add the ID to represent this
+      "symbol": "UNIV-1",
+      "name": "Universal",
+      //New field: artist
+      "artist": "0x0ebdf68ea31cecfd048f819b2a59a7bbe3894b82",
+      "description": "SPACE",
+      "image": "ipfs://QmX8MUT2t9GuA1yZZc2JdG8kh6yGteVhe3TFcYeVCXsmow",
+      
+      //Not sure if needed to keep
+      "tags": ["universal"],
+
+      //Figure out where these are being held for the fraktionalized 721s
+      //Deserializer will have to loop over all this ideally
+      "attributes": {
+        "trait_type": "Galaxy",
+        "value": "Milky Way"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x78f26ff358b03e66bce0208b43ed1c2e0666d998",
+      "symbol": "SWE-1",
+      "name": "sweet",
+      "image": "ipfs://QmQPfmX6NRnrXnXPQcB5NVRyg1XnfJriUkt6HJ2mNwfess",
+      "tags": ["sweet"],
+      //temporarily removing attributes from main for testing
+      "attributes": {
+        "trait_type": "Breed",
+        "value": "Pom"
+      }
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

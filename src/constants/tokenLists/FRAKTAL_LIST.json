@@ -1,0 +1,53 @@
+{
+  "name": "Fraktal Gallery",
+  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+  "keywords": ["audited", "verified", "special tokens", "erc1155"],
+  "tags": {
+    "universal": {
+      "name": "Universal",
+      "description": "SPACE"
+    },
+    "compound": {
+      "name": "sweet",
+      "description": "my dog on the flower"
+    }
+  },
+  "timestamp": "2020-06-12T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 4,
+      "address": "0xebba858df055018f28793cec9295e39abf2fd9d2",
+      "symbol": "UNIV-1",
+      "name": "Universal",
+      "decimals": 0,
+      "artist": "0x0ebdf68ea31cecfd048f819b2a59a7bbe3894b82",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "image": "https://ipfs.io/ipfs/QmX8MUT2t9GuA1yZZc2JdG8kh6yGteVhe3TFcYeVCXsmow",
+      "tags": ["universal"]
+    },
+    {
+      "chainId": 4,
+      "address": "0x78f26ff358b03e66bce0208b43ed1c2e0666d998",
+      "symbol": "SWE-1",
+      "name": "sweet",
+      "decimals": 0,
+      "image": "https://ipfs.io/ipfs/QmQPfmX6NRnrXnXPQcB5NVRyg1XnfJriUkt6HJ2mNwfess",
+      "tags": ["sweet"]
+    },
+    {
+      "chainId": 4,
+      "address": "0xb02c6cf605e871d7ad975147372ab1227425cb61",
+      "symbol": "MORM-1",
+      "name": "Morning mint by arthunter",
+      "decimals": 0,
+      "artist": "0x06b53e2289d903ba0e23733af8fbd26ad3b6c9fa",
+      "image": "https://ipfs.io/ipfs/QmQ7xHRAPJQSJMRWxHHuhjr2gZVkfTH5Q6G2f6QT6NURGn",
+      "tags": ["arthunter"]
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
