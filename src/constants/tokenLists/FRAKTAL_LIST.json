@@ -15,7 +15,7 @@
   "timestamp": "2020-06-12T00:00:00+00:00",
   "tokens": [
     {
-      "chainId": 4,
+      "chainId": 1,
       "address": "0xebba858df055018f28793cec9295e39abf2fd9d2",
       "symbol": "UNIV-1",
       "name": "Universal",
@@ -26,7 +26,7 @@
       "tags": ["universal"]
     },
     {
-      "chainId": 4,
+      "chainId": 1,
       "address": "0x78f26ff358b03e66bce0208b43ed1c2e0666d998",
       "symbol": "SWE-1",
       "name": "sweet",
@@ -35,7 +35,7 @@
       "tags": ["sweet"]
     },
     {
-      "chainId": 4,
+      "chainId": 1,
       "address": "0xb02c6cf605e871d7ad975147372ab1227425cb61",
       "symbol": "MORM-1",
       "name": "Morning mint by arthunter",
